@@ -8,10 +8,11 @@ html, body{
     height: 100%;
 }
 body{
+    background-image: url("./resources/background.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    
+    background-attachment: fixed;
 }
 header nav{
     display: flex;
