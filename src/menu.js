@@ -20,6 +20,7 @@ const menu = (content)=>{
     frenchFries.classList.add("food");
 
     content.classList.replace("home","menu");
+    content.classList.replace("contacts", "menu");
 
     content.appendChild(burger);
     content.appendChild(pizza);

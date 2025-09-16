@@ -19,6 +19,9 @@ header nav{
     flex-direction: row;
     gap: 900px;
 
+    position: fixed;
+    top: 0;
+    z-index: 3;
     height: 70px;
 }
 
@@ -49,6 +52,4 @@ ul{
 .nav-btn:hover{
     background-color: gray;
 }
-#content{
-    
-}
+

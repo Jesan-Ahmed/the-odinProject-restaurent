@@ -1,10 +1,12 @@
 .home{
+    position: relative;
+    top:200px;
+
     background-color: rgba(0, 0, 0, .7);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
 
     color: aliceblue;
 }

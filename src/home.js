@@ -10,6 +10,15 @@ const home = (content)=>{
     content.appendChild(heading);
     content.appendChild(para);
     content.classList.add("home");
+    if(content.classList.contains("menu")){
+        content.classList.replace("menu", "home");
+    }
+    else if(content.classList.contains("contacts")){
+        content.classList.replace("contacts", "home");
+    }
+    else{
+        content.classList.add("home");
+    }
 }
 
 export {home};
