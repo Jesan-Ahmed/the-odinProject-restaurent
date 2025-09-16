@@ -4,7 +4,7 @@ import {home} from "./home.js";
 import { menu } from "./menu.js";
 import { contact } from "./contacts.js";
 
-alert("hi");
+
 const body = document.querySelector("body");
 const logo = document.querySelector(".logo");
 const content = document.querySelector("#content");
